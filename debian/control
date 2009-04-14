@@ -3,6 +3,7 @@ Section: core
 Priority: extra
 Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
 Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 
 Package: metronomefb-support
