@@ -1,6 +1,6 @@
 TEMPERATURE_SOURCE="/sys/class/hwmon/hwmon0/device/temp1_input"
 TEMPERATURE_DIVIDER=1000
 FB_NUM=1
-PERIOD=600
+PERIOD=60
 BOARD_MODULE="board-n516-display"
 DEFIO_DELAY=400
