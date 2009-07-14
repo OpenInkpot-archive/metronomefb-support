@@ -12,6 +12,8 @@ case "$1" in
 		temp=`cat $TEMPERATURE_SOURCE`
 		temp_deg=`expr $temp / $TEMPERATURE_DIVIDER`
 		modprobe metronomefb temp=$temp_deg
+        # Hack: don't wait for mdev
+		mknod /dev/fb1 c 29 1
 		modprobe $BOARD_MODULE
 		echo $DEFIO_DELAY > /sys/class/graphics/fb$FB_NUM/defio_delay
 		echo "done."
