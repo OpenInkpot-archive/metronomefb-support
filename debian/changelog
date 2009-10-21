@@ -1,3 +1,10 @@
+metronomefb-support (0.1.2) asimov; urgency=low
+
+  * Increase timeout to 0.3s to avoid ugly half-page turns in
+    FBReader. The proper fix is yet to be discovered.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Wed, 21 Oct 2009 18:57:20 +0700
+
 metronomefb-support (0.1.1) asimov; urgency=low
 
   * Added hack to create framebuffer device earlier in the boot process.
