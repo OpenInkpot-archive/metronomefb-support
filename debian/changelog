@@ -1,3 +1,9 @@
+metronomefb-support (0.1.5) zelazny; urgency=low
+
+  * Set defio delay to 50ms
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Thu, 14 Apr 2011 23:42:27 +0200
+
 metronomefb-support (0.1.4) zelazny; urgency=low
 
   * Increase timeout back to 0.25s as Xfbdev does not yet support native
