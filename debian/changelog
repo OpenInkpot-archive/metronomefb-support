@@ -1,3 +1,9 @@
+metronomefb-support (0.1.6) zelazny; urgency=low
+
+  * Add settings for PRS505
+
+ -- Alexander Kerner <lunohod@openinkpot.org>  Sun, 11 Sep 2011 10:09:29 +0200
+
 metronomefb-support (0.1.5) zelazny; urgency=low
 
   * Set defio delay to 50ms
