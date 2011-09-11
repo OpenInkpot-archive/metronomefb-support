@@ -28,6 +28,12 @@ install: build
 
 	install metronometempd $(CURDIR)/debian/metronomefb-support/usr/sbin
 
+	mkdir -p $(CURDIR)/debian/metronomefb-support-n516/etc/default
+	install -m 0644 $(CURDIR)/debian/metronomefb-support.n516.default $(CURDIR)/debian/metronomefb-support-n516/etc/default/metronomefb-support
+	mkdir -p $(CURDIR)/debian/metronomefb-support-prs505/etc/default
+	install -m 0644 $(CURDIR)/debian/metronomefb-support.prs505.default $(CURDIR)/debian/metronomefb-support-prs505/etc/default/metronomefb-support
+
+
 binary-indep: build install
 
 # Build architecture-dependent files here.

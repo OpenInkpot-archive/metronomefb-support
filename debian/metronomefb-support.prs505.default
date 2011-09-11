@@ -1,0 +1,7 @@
+TEMPERATURE_SOURCE="/sys/class/hwmon/hwmon0/device/temp1_input"
+TEMPERATURE_DIVIDER=1000
+FB_NUM=1
+PERIOD=60
+BOARD_MODULE="prs505-display"
+DEFIO_DELAY=50
+

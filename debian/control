@@ -14,3 +14,21 @@ Description: OI metronomefb support
  Userspace support for metronomefb driver. It contains init
  script for loading metronomefb module with right parameters
  and daemon for sending current temperature to metronomefb.
+
+Package: metronomefb-support-n516
+Architecture: any
+Depends: metronomefb-support
+Description: OI metronomefb support - settings for N516
+ Userspace support for metronomefb driver. It contains init
+ script for loading metronomefb module with right parameters
+ and daemon for sending current temperature to metronomefb.
+ This package contains settings for N516
+
+Package: metronomefb-support-prs505
+Architecture: any
+Depends: metronomefb-support
+Description: OI metronomefb support - settings for PRS505
+ Userspace support for metronomefb driver. It contains init
+ script for loading metronomefb module with right parameters
+ and daemon for sending current temperature to metronomefb.
+ This package contains settings for Sony PRS505.
